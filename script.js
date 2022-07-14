@@ -55,7 +55,7 @@ locationInp.value = localStorage.getItem("city");
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "914dce6c37msha90e8d77384166fp1cd47fjsn218fe0be9f3e",
+    "X-RapidAPI-Key": "2b92fef2bcmsh556664cb99f6a08p1d4c5fjsn24644372ab39",
     "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
   },
 };
@@ -65,8 +65,8 @@ function fetchResults(spotifyID) {
   // spotify user playlist fetch
   fetch(
     "https://spotify23.p.rapidapi.com/user_profile/?id=" +
-      spotifyID +
-      "&playlistLimit=10&artistLimit=10",
+    spotifyID +
+    "&playlistLimit=10&artistLimit=10",
     options
   )
     .then(function (response) {
@@ -80,8 +80,8 @@ function fetchResults(spotifyID) {
   function getArtist(id) {
     fetch(
       "https://spotify23.p.rapidapi.com/playlist_tracks/?id=" +
-        id +
-        "&offset=0&limit=100",
+      id +
+      "&offset=0&limit=100",
       options
     )
       .then(function (response) {
