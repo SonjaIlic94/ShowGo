@@ -26,7 +26,13 @@ A feature we can’t wait to implement is to be able to go through more of the u
 ## Website
 
 https://sonjaIlic94.github.io/ShowGo/
+![ShowGo1](https://user-images.githubusercontent.com/104938407/179359840-f7c2a19b-8066-4ca6-bcbd-4415a4c56b63.png)
 
+![ShowGo2](https://user-images.githubusercontent.com/104938407/179359842-2610b40b-a795-431f-83c2-1cb2be5f029e.png)
+
+
+## Repository
+https://github.com/SonjaIlic94/ShowGo
 
 
 ## Created by
